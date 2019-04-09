@@ -1,4 +1,4 @@
-package decorator;
+package state;
 
 public class ICMS extends Imposto {
 
@@ -6,7 +6,8 @@ public class ICMS extends Imposto {
         super(imposto);
     }
 
-    public ICMS(){}
+    public ICMS() {
+    }
 
     @Override
     public double calcula(Orcamento orcamento) {

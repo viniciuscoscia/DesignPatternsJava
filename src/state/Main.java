@@ -1,9 +1,8 @@
-package decorator;
+package state;
 
 /**
- * Em Decorator, utilizamos uma classe abstrata (Imposto) que tem um construtor que aceita
- * outro objeto do mesmo tipo, é feita também uma função que retorna dados relevantes
- * para o uso.
+ * State já diz no nome: É indicado para evitar tratativas com um monte de if para estados de um objeto
+ * Ver exemplo em TesteDeDescontoExtra sendo aplicado estados sobre um Orçamento
  */
 
 public class Main {

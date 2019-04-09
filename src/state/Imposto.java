@@ -1,9 +1,9 @@
-package decorator;
+package state;
 
 public abstract class Imposto {
     protected Imposto outroImposto;
 
-    public Imposto(){
+    public Imposto() {
     }
 
     public Imposto(Imposto outroImposto) {

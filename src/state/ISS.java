@@ -1,11 +1,12 @@
-package decorator;
+package state;
 
 public class ISS extends Imposto {
-    public ISS(Imposto imposto){
+    public ISS(Imposto imposto) {
         super(imposto);
     }
 
-    public ISS(){}
+    public ISS() {
+    }
 
     @Override
     public double calcula(Orcamento orcamento) {
