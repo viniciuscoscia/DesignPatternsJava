@@ -2,42 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f8e96b8-bf8c-4e7e-860c-86c63ab4ec9c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/builderAndObserver/ItemDaNota.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderAndObserver/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderAndObserver/NotaFiscal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/builderAndObserver/NotaFiscalBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Aprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/CalculadorDeDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/CalculadorImposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/DescontoCincoItens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/DescontoMaisQuinhentosReais.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/EmAprovacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/EstadoDeUmOrcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Finalizado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/ICMS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/ICPP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/IDesconto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/IKCV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/ISS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Imposto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Orcamento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/Reprovado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/TemplateImpostoCondicional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/state/TesteDeDescontoExtra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgeEAdapter/GoogleMaps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgeEAdapter/MapLink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgeEAdapter/Mapa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgeEAdapter/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgeEAdapter/Relogio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bridgeEAdapter/RelogioDoSistema.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/EmpresaFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/EmpresaFacadeSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/Servico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/facade/ServicoSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/factory/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interpreter/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Contrato.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Estado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Historico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/Programa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/memento/TipoContrato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/META-INF/DesignPatterns.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/chainOfResponsability/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/chainOfResponsability/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/CalculadorImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/CalculadorImposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/ICMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/ICMS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/ISS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/ISS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/Imposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Imposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/Orcamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/Orcamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/decorator/TemplateImpostoCondicional.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/decorator/TemplateImpostoCondicional.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/decorator/Orcamento.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/decorator/Orcamento.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/state/ICMS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/state/ICMS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignPatterns/state/ISS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignPatterns/state/ISS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resolucaoProblema/MenorDoisMil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/resolucaoProblema/MenorDoisMil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,113 +39,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/NotaFiscal.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="14" column="160" selection-start-line="14" selection-start-column="160" selection-end-line="14" selection-end-column="160" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#384#385#0" expanded="true" />
-                <element signature="e#415#416#0" expanded="true" />
-                <element signature="e#442#443#0" expanded="true" />
-                <element signature="e#484#485#0" expanded="true" />
-                <element signature="e#520#521#0" expanded="true" />
-                <element signature="e#557#558#0" expanded="true" />
-                <element signature="e#590#591#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#726#727#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#798#799#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/strategy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/NotaFiscalBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#290#302#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/AcaoAposGerarNota.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/EnviadorDeEmail.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/EnviadorDeSms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/Impressora.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/builderAndObserver/NotaFiscalDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Calendar.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/decorator/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="133">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -177,9 +63,11 @@
       <find>DAY_OF_WEEK_IN_MONTH</find>
       <find>builder.</find>
       <find>comItem</find>
+      <find>cap3</find>
     </findStrings>
     <replaceStrings>
       <replace>com</replace>
+      <replace>memento</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -188,19 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Orcamento.java" />
-        <option value="$PROJECT_DIR$/src/Imposto.java" />
-        <option value="$PROJECT_DIR$/src/ICMS.java" />
-        <option value="$PROJECT_DIR$/src/ISS.java" />
-        <option value="$PROJECT_DIR$/src/CalculadorImposto.java" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsability/Item.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsability/Orcamento.java" />
-        <option value="$PROJECT_DIR$/src/strategy/Main.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsability/IDesconto.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsability/DescontoCincoItens.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsability/DescontoMaisQuinhentosReais.java" />
-        <option value="$PROJECT_DIR$/src/chainOfResponsability/CalculadorDeDesconto.java" />
         <option value="$PROJECT_DIR$/src/templateMethod/TemplateImpostoCondicional.java" />
         <option value="$PROJECT_DIR$/src/templateMethod/IKCV.java" />
         <option value="$PROJECT_DIR$/src/templateMethod/ICPP.java" />
@@ -210,11 +85,9 @@
         <option value="$PROJECT_DIR$/src/templateMethod/Main.java" />
         <option value="$PROJECT_DIR$/src/decorator/CalculadorImposto.java" />
         <option value="$PROJECT_DIR$/src/decorator/Orcamento.java" />
-        <option value="$PROJECT_DIR$/src/decorator/ICMS.java" />
         <option value="$PROJECT_DIR$/src/decorator/Imposto.java" />
         <option value="$PROJECT_DIR$/src/decorator/TemplateImpostoCondicional.java" />
         <option value="$PROJECT_DIR$/src/decorator/ISS.java" />
-        <option value="$PROJECT_DIR$/src/decorator/Main.java" />
         <option value="$PROJECT_DIR$/src/state/DescontoCincoItens.java" />
         <option value="$PROJECT_DIR$/src/state/EstadoDeUmOrcamento.java" />
         <option value="$PROJECT_DIR$/src/state/EmAprovacao.java" />
@@ -236,13 +109,30 @@
         <option value="$PROJECT_DIR$/src/builder/NotaFiscalBuilder.java" />
         <option value="$PROJECT_DIR$/src/builderAndObserver/NotaFiscalBuilder.java" />
         <option value="$PROJECT_DIR$/src/builderAndObserver/Main.java" />
+        <option value="$PROJECT_DIR$/src/decorator/Main.java" />
+        <option value="$PROJECT_DIR$/src/decorator/ICMS.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/Fatura.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/FiltroFatura.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/Main.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/IFilter.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/MaiorOitoMil.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/RegraSP.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/FiltroFaturaExecutor.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/AbstractFilter.java" />
+        <option value="$PROJECT_DIR$/src/factory/ConnectionFactory.java" />
+        <option value="$PROJECT_DIR$/src/factory/Programa.java" />
+        <option value="$PROJECT_DIR$/src/memento/Contrato.java" />
+        <option value="$PROJECT_DIR$/src/memento/Programa.java" />
+        <option value="$PROJECT_DIR$/src/resolucaoProblema/MenorDoisMil.java" />
+        <option value="$PROJECT_DIR$/src/interpreter/Main.java" />
+        <option value="$PROJECT_DIR$/src/bridgeEAdapter/Programa.java" />
+        <option value="$PROJECT_DIR$/src/facade/Programa.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="671" />
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -264,12 +154,6 @@
               <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DesignPatterns" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignPatterns" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="builderAndObserver" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,6 +180,12 @@
       <recent name="C:\Workspaces\Udacity\Exercicios\ud867\DesignPatterns\src\templateMethod" />
       <recent name="C:\Workspaces\Udacity\Exercicios\ud867\DesignPatterns\src\chainOfResponsability" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspaces\Alura\DesignPatterns\src\facade" />
+      <recent name="C:\Workspaces\Alura\DesignPatterns\src\bridgeEAdapter" />
+      <recent name="C:\Workspaces\Alura\DesignPatterns\src\memento" />
+      <recent name="C:\Workspaces\Alura\DesignPatterns\src\factory" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -309,20 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (2)">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chainOfResponsability.Main" />
-      <module name="DesignPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chainOfResponsability.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="builderAndObserver.Main" />
       <module name="DesignPatterns" />
@@ -336,12 +213,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="resolucaoProblema.Main" />
+      <module name="DesignPatterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="resolucaoProblema.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="strategy.Main" />
       <module name="DesignPatterns" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -374,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.TesteDeDescontoExtra" />
         <item itemvalue="Application.Orcamento" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -393,25 +286,47 @@
       <option name="presentableId" value="Default" />
       <updated>1554398573364</updated>
     </task>
+    <task id="LOCAL-00001" summary="Incluidos novos design patterns">
+      <created>1554839933488</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554839933488</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Incluidos novos design patterns">
+      <created>1554839962249</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554839962249</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Incluidos novos design patterns">
+      <created>1555011204964</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555011204964</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30408472" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25567323" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32405892" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32405892" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32405892" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -447,6 +362,10 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Incluidos novos design patterns" />
+    <option name="LAST_COMMIT_MESSAGE" value="Incluidos novos design patterns" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -470,196 +389,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/DescontoCincoItens.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/IKCV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/TemplateImpostoCondicional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/ICPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/CalculadorImposto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/ICMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/ISS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/IDesconto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/CalculadorDeDesconto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templateMethod/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/strategy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/DescontoCincoItens.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/IDesconto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/CalculadorImposto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Orcamento.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/IKCV.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/ISS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
-          <folding>
-            <element signature="e#86#87#0" expanded="true" />
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/TemplateImpostoCondicional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="62" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/ICPP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/ICMS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding>
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Imposto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/CalculadorDeDesconto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/ICPP.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/TemplateImpostoCondicional.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/ICMS.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/CalculadorDeDesconto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/Imposto.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/Item.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/state/DescontoMaisQuinhentosReais.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/state/ISS.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -769,41 +498,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/decorator/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/builderAndObserver/NotaFiscal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-374">
+        <state relative-caret-position="221">
           <caret line="14" column="160" selection-start-line="14" selection-start-column="160" selection-end-line="14" selection-end-column="160" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
-            <element signature="e#384#385#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#442#443#0" expanded="true" />
-            <element signature="e#484#485#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#557#558#0" expanded="true" />
-            <element signature="e#590#591#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#726#727#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#798#799#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Calendar.java">
+    <entry file="file://$PROJECT_DIR$/src/builderAndObserver/NotaFiscalBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
+        <state relative-caret-position="969">
+          <caret line="59" column="54" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -842,21 +553,256 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/builderAndObserver/NotaFiscalBuilder.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Calendar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="59" column="54" lean-forward="true" selection-start-line="59" selection-start-column="54" selection-end-line="59" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#290#302#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="26282">
+          <caret line="1610" column="27" selection-start-line="1610" selection-start-column="27" selection-end-line="1610" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/builderAndObserver/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="195">
+          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/CalculadorImposto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/ICMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#90#91#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/ICPP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/TemplateImpostoCondicional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/ICMS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/ISS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/IDesconto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="83" lean-forward="true" selection-start-line="16" selection-start-column="83" selection-end-line="16" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/DescontoCincoItens.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chainOfResponsability/CalculadorDeDesconto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="36" lean-forward="true" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/decorator/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/AbstractFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="24" lean-forward="true" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/ConnectionFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/factory/Programa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="63" lean-forward="true" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memento/Contrato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/memento/Programa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/Fatura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding>
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#341#342#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#414#415#0" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#505#506#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/FiltroFaturaExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/MaiorOitoMil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/MenorDoisMil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resolucaoProblema/RegraSP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/interpreter/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bridgeEAdapter/GoogleMaps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/bridgeEAdapter/Programa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facade/Servico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facade/ServicoSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facade/EmpresaFacadeSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facade/EmpresaFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/facade/Programa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/strategy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
